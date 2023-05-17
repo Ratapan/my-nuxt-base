@@ -1,5 +1,9 @@
+<script setup>
+const { locale } = useI18n()
+</script>
+
 <template>
-  <div>
+  <div class="html">
     <header class="header">
       <nav class="header__nav">
         <img class="header__logo" src="rtp_b.svg" alt="logo" />
@@ -11,9 +15,16 @@
             <NuxtLink to="/about">AboutMe</NuxtLink>
           </li>
         </ul>
-        <button class="btn">Login</button>
+        <NuxtLink to="/" class="btn">Login</NuxtLink>
+        <select v-model="locale" >
+        <option value="en">🍟</option>
+        <option value="es">🌮</option>
+      </select>
       </nav>
     </header>
-    <slot/>
+    <main class="main">
+
+      <slot/>
+    </main>
   </div>
 </template>

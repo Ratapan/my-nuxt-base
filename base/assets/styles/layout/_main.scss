@@ -1,0 +1,8 @@
+.main {
+  @include scrollBar();
+  width: 100%;
+  padding: var(--px-mid);
+  padding-top: calc(var(--px-big) + var(--px-big));
+  height: 100vh;
+  text-align: center;
+}

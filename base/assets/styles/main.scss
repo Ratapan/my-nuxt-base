@@ -3,7 +3,7 @@
 //importacion base
 @import "base/reset", "base/base", "base/typography";
 //importacion layout
-@import "layout/header","layout/grid";
+@import "layout/header","layout/grid","layout/main";
 //components
-@import "components/btns";
+@import "components/btns","components/box";
 

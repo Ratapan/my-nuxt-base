@@ -23,6 +23,7 @@
     padding: 0;
   }
   a {
+   text-decoration: none;
     color: var(--c-link);
   }
   
@@ -45,6 +46,9 @@
     -moz-transition: background-color .4s;
     -ms-transition: background-color .4s;
     -o-transition: background-color .4s;
+  }
+  .html,html,body{
+    min-height: 100vh;
   }
   
   h1,
@@ -72,6 +76,7 @@
   button {
     font-family: inherit;
     font-size: inherit;
-    background-color: transparent;
+    background-color: var(--c-back);
     display: block;
+    outline: none;
   }

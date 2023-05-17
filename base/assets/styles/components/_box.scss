@@ -1,0 +1,6 @@
+.box{
+    margin: 0 auto;
+    border: 1px solid var(--c-font_2);
+    background-color: var(--c-back_2);
+    @include borderR(var(--px-mid));
+}
