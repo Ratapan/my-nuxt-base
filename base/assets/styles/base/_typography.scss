@@ -1,0 +1,51 @@
+$font_montserrat_path: "~@/assets/fonts/Montserrat/";
+
+@font-face {
+   font-family: "Montserrat E-L";
+   src: url($font_montserrat_path + "Montserrat-ExtraLight.ttf");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Montserrat L";
+   src: url($font_montserrat_path + "Montserrat-Light.ttf");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Montserrat";
+   src: url($font_montserrat_path + "Montserrat-Regular.ttf");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Montserrat M";
+   src: url($font_montserrat_path + "Montserrat-Medium.ttf");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Montserrat S-B";
+   src: url($font_montserrat_path + "Montserrat-SemiBold.ttf");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Montserrat B";
+   src: url($font_montserrat_path + "Montserrat-Bold.ttf");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Montserrat E-B";
+   src: url($font_montserrat_path + "Montserrat-ExtraBold.ttf");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Montserrat Italic";
+   src: url($font_montserrat_path + "Montserrat-Italic.ttf");
+   font-weight: normal;
+   font-style: normal;
+}
+
