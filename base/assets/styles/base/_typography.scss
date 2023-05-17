@@ -1,9 +1,9 @@
 $font_montserrat_path: "~@/assets/fonts/Montserrat/";
 
 @font-face {
-   font-family: "Montserrat E-L";
+   font-family: "Montserrat";
    src: url($font_montserrat_path + "Montserrat-ExtraLight.ttf");
-   font-weight: normal;
+   font-weight: extraLight;
    font-style: normal;
 }
 @font-face {
@@ -25,9 +25,9 @@ $font_montserrat_path: "~@/assets/fonts/Montserrat/";
    font-style: normal;
 }
 @font-face {
-   font-family: "Montserrat S-B";
+   font-family: "Montserrat";
    src: url($font_montserrat_path + "Montserrat-SemiBold.ttf");
-   font-weight: normal;
+   font-weight: SemiBold;
    font-style: normal;
 }
 @font-face {

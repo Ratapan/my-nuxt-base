@@ -1,0 +1,20 @@
+:root {
+    --c-back: #fff0d0;
+    --c-back_2: #fffcf4;
+    --c-font: #493600;
+    --c-font_2: #775700;
+    --c-link: #a70000;
+    --c-select: #dddc89;
+    
+    --px-big: 32px;
+    --px-mid: 16px;
+    --px-low: 8px;
+    --px-min: 4px;
+ }
+ //@media
+ $max-movil: 501px;
+ $max-movil-plus: 601px;
+ $max-tablet: 768px;
+ $min-laptop: 1024px;
+ $min-desktop: 1440px;
+ $min-fullhd: 1920px;

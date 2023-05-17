@@ -1,0 +1,16 @@
+.header{
+    @include container();
+    box-shadow: 0 0 var(--px-low) var(--c-font_2);
+    &__nav{
+        @include flex_b();
+        height: 34px;
+    }
+    &__logo{
+        height: 100%;        
+    }
+    &__list{
+        @include flex_e();
+        width: 100%
+    }
+    &__list{}
+}

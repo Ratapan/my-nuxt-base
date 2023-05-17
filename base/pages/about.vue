@@ -1,6 +1,6 @@
 <template>
-    <div>
-      About me 🐱‍👤
+    <div class="content">
+      <h1>About me 🐱‍👤</h1>
     </div>
   </template>
   
